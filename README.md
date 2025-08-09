@@ -1,46 +1,34 @@
 📊 YouTube Channel Analysis Dashboard
-Analyze any public YouTube channel with an interactive Streamlit app using the YouTube Data API v3.
-Fetch video data, explore analytics, compare videos, and visualize key metrics in a sleek dashboard.
+Analyze any public YouTube channel with this interactive Streamlit app using the YouTube Data API v3.
+Fetch video data, explore key metrics, visualize trends, and compare videos — all in a sleek dashboard.
 
 🚀 Features
 Fetch latest videos from any public YouTube channel
 
-Key metrics: views, likes, engagement
+Key metrics: views, likes, engagement rate
 
-Top 10 videos chart
+Visualize top videos with interactive charts
 
-Trends: views over time, likes vs comments scatter plot
+Trend analysis: views over time, likes vs comments
 
-Download filtered video data as CSV
+Download filtered data as CSV for further analysis
 
 Compare videos side-by-side
 
-Modern UI with secure API key handling
+Clean, intuitive UI with secure API key handling
 
 🛠️ Tech Stack
-Streamlit (UI & dashboard)
+Streamlit for UI and dashboard
 
-YouTube Data API v3
+YouTube Data API v3 for data fetching
 
-pandas (data handling)
+pandas for data processing
 
-Plotly (charts)
+Plotly for interactive visualizations
 
-python-dotenv (env variables)
+python-dotenv for environment variables
 
-📂 Project Structure
-Copy
-Edit
-Youtube/
-├── app.py
-├── pages/
-│   ├── 1_Home.py
-│   ├── 2_Analytics.py
-│   ├── 3_Video_Comparison.py
-├── requirements.txt
-├── .gitignore
-├── README.md
-⚙️ Running Locally
+⚙️ Run Locally
 bash
 Copy
 Edit
@@ -48,25 +36,25 @@ git clone https://github.com/dhinesh0202/Youtube.git
 cd Youtube
 
 python -m venv venv
-# Activate:
+# Activate virtual environment:
 # Mac/Linux: source venv/bin/activate
 # Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 
-echo "YT_API_KEY=your_actual_youtube_api_key" > .env
+echo "YT_API_KEY=your_youtube_api_key" > .env
 
 streamlit run app.py
 🌐 Deploy on Streamlit Cloud
-Push code to GitHub (exclude .env)
+Push your code to GitHub (exclude .env)
 
-Create new app on streamlit.io/cloud
+On Streamlit Cloud, create a new app pointing to your repo and app.py
 
-Set secret YT_API_KEY with your API key
+Add your API key as a secret (YT_API_KEY)
 
-Deploy and share your app
+Deploy and share your app!
 
 👤 Author
 Dhinesh
-GitHub | Live Demo
+GitHub: https://github.com/dhinesh0202
 
