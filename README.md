@@ -6,17 +6,6 @@ Fetch video data, explore key metrics, visualize trends, and compare videos — 
 Explore the live app here:
 👉 https://dhinesh-youtube-dashboard.streamlit.app
 
-🛠️ Tech Stack
-Streamlit for UI and dashboard
-
-YouTube Data API v3 for data fetching
-
-pandas for data processing
-
-Plotly for interactive visualizations
-
-python-dotenv for environment variables
-
 ⚙️ How to Run Locally
 bash
 Copy
@@ -36,6 +25,7 @@ pip install -r requirements.txt
 echo "YT_API_KEY=your_youtube_api_key" > .env
 
 streamlit run app.py
+
 ☁️ Deploy on Streamlit Cloud
 Push your code to GitHub (do NOT commit .env)
 
