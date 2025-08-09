@@ -9,9 +9,9 @@ KPI metrics: views, likes, engagement
 
 Top 10 videos chart
 
-Trends: views over time, likes vs comments scatter
+Trends: views over time, likes vs comments scatter plot
 
-Download filtered video CSV
+Download filtered video data as CSV
 
 Compare videos side-by-side (Video Comparison Tool)
 
@@ -33,7 +33,8 @@ python-dotenv (local secrets)
 Streamlit Cloud (deployment)
 
 📂 Directory Structure
-text
+kotlin
+Copy code
 Youtube/
 ├── app.py
 ├── pages/
@@ -46,12 +47,16 @@ Youtube/
 ├── README.md
 ⚙️ How to Run Locally
 bash
+Copy code
 git clone https://github.com/dhinesh0202/Youtube.git
 cd Youtube
 
 python -m venv venv          # optional, recommended
-source venv/bin/activate     # Mac/Linux
-venv\Scripts\activate        # Windows
+# Activate the virtual environment
+# Mac/Linux:
+source venv/bin/activate     
+# Windows:
+venv\Scripts\activate        
 
 pip install -r requirements.txt
 
@@ -60,20 +65,22 @@ echo "YT_API_KEY=your_actual_youtube_api_key" > .env
 
 streamlit run app.py
 🌐 Deploy on Streamlit Cloud
-Push your code to GitHub (no .env!).
+Push your code to GitHub (exclude .env file!).
 
 Go to streamlit.io/cloud
 
-New App → choose repo, branch (main), file (app.py)
+Click New App → choose your repo, branch (main), and file (app.py)
 
 In Secrets, add:
 
-text
+ini
+Copy code
 YT_API_KEY = "your_actual_youtube_api_key"
 Click Deploy. Share your app link!
 
 🤝 Contribution
-Contributions welcome! Fork, branch, and PR.
+Contributions are welcome!
+Fork the repo, create a branch, and open a pull request.
 
 📜 License
 MIT License
