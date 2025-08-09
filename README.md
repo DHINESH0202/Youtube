@@ -2,21 +2,6 @@
 Analyze any public YouTube channel with this interactive Streamlit app using the YouTube Data API v3.
 Fetch video data, explore key metrics, visualize trends, and compare videos — all in a sleek, user-friendly dashboard.
 
-🚀 Features
-Fetch latest videos from any public YouTube channel
-
-Key metrics: views, likes, engagement rate
-
-Visualize top videos with interactive charts
-
-Trend analysis: views over time, likes vs comments
-
-Download filtered data as CSV for offline analysis
-
-Compare videos side-by-side
-
-Clean, intuitive UI with secure API key handling
-
 🌐 Try the Demo
 Explore the live app here:
 👉 https://dhinesh-youtube-dashboard.streamlit.app
